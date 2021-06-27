@@ -46,8 +46,8 @@ namespace BusinessLogic
             ViewSchedule Schedule = new ViewSchedule();
             Certificates certificate = new Certificates();
 
-            Console.WriteLine("Welcome to the Menu:");
-
+            Console.WriteLine("=== Welcome to the Menu ====");
+            Console.WriteLine("======================================");
             Console.WriteLine("Press 1 to view the Employee;s Info");
             Console.WriteLine("Press 2 to view the Schedule");
             Console.WriteLine("Press 3 to view the Employee's Certificate");
@@ -58,27 +58,36 @@ namespace BusinessLogic
             if (UserOption.Equals(1))
             {
                 employeeInfo.ViewEmploye();
-
+                Console.WriteLine("Press any key to Access Menu Again:");
+                Console.ReadKey();
+                Console.Clear();
+              Menu();
             }
             else if (UserOption.Equals(2))
             {
                 Schedule.Schedule();
-
+                Console.WriteLine("Press any key to Access Menu Again:");
+                Console.ReadKey();
+                Console.Clear();
+                Menu();
             }
 
             else if (UserOption.Equals(3))
             {
                 certificate.Certifactes();
-
+                Console.WriteLine("Press any key to Access Menu Again:");
+                Console.ReadKey();
+                Console.Clear();
+                Menu();
             }
 
-            else
+            else if (UserOption.Equals(4))
             {
                 Console.WriteLine("Alert! System shutdown!");
                 Console.ReadKey();
             }
 
-
+          
         }
 
     }
