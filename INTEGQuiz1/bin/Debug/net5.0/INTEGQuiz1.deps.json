@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "INTEGQuiz1/1.0.0": {
+        "dependencies": {
+          "BusinessLogic": "1.0.0",
+          "DataLayer": "1.0.0"
+        },
+        "runtime": {
+          "INTEGQuiz1.dll": {}
+        }
+      },
+      "BusinessLogic/1.0.0": {
+        "runtime": {
+          "BusinessLogic.dll": {}
+        }
+      },
+      "DataLayer/1.0.0": {
+        "runtime": {
+          "DataLayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "INTEGQuiz1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BusinessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

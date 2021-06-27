@@ -1,0 +1,58 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AdminView/1.0.0": {
+        "dependencies": {
+          "BusinessLogic": "1.0.0",
+          "DataLayer": "1.0.0",
+          "INTEGQuiz1": "1.0.0"
+        },
+        "runtime": {
+          "AdminView.dll": {}
+        }
+      },
+      "BusinessLogic/1.0.0": {
+        "runtime": {
+          "BusinessLogic.dll": {}
+        }
+      },
+      "DataLayer/1.0.0": {
+        "runtime": {
+          "DataLayer.dll": {}
+        }
+      },
+      "INTEGQuiz1/1.0.0": {
+        "runtime": {
+          "INTEGQuiz1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AdminView/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BusinessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "INTEGQuiz1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
