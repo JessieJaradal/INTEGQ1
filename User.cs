@@ -51,6 +51,7 @@ namespace BusinessLogic
             Console.WriteLine("Press 1 to view the Employee;s Info");
             Console.WriteLine("Press 2 to view the Schedule");
             Console.WriteLine("Press 3 to view the Employee's Certificate");
+            Console.WriteLine("Press 4 to Exit the System");
             Console.WriteLine("Press any key to exit the system");
             int UserOption = Convert.ToInt32(Console.ReadLine());
 
